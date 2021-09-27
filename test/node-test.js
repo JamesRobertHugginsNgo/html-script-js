@@ -4,7 +4,7 @@ import { default as render, tag } from '../index.js';
 import lorem from '../lorem.js';
 
 function randomIntFromInterval(min, max) { // min and max included
-  return Math.floor(Math.random() * (max - min + 1) + min)
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 const content = render([
